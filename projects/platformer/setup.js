@@ -18,8 +18,8 @@ const playerScale = 1; //makes the player just a bit smaller. Doesn't affect the
 const player = {
   x: 50,
   y: 100,
-  speedX: 0,
-  speedY: 0,
+  speedX: 100,
+  speedY: 10,
   width: undefined,
   height: undefined,
   onGround: false,
