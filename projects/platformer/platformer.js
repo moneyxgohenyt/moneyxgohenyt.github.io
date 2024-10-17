@@ -16,10 +16,10 @@ $(function () {
       setInterval(main, 1000 / frameRate);
     }
     // Create walls - do not delete or modify this code
-    createPlatform(-50, -50, canvas.width + 100, 50); //top
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200); //right
-    createPlatform(-50, -50, 50, canvas.height + 500); //bottom
-    createPlatform(canvas.width, -50, 50, canvas.height + 100);
+    createPlatform(50, 50, canvas.width + 100, 50); //top
+    createPlatform(50, canvas.height  10, canvas.width + 100, 200); //right
+    createPlatform(50, 50, 50, canvas.height + 500); //bottom
+    createPlatform(canvas.width, 50, 50, canvas.height + 100);
 
     /**
      * Uncomment the drawGrid() function call below to add a "grid" to your platformer game's screen
