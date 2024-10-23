@@ -68,9 +68,9 @@ body {
 }
 div {
   padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-left: 0;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30;
 }
 
   > .myClass {
