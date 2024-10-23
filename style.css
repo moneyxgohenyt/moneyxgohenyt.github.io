@@ -54,7 +54,7 @@ main {
 
 /* portfolio styles */
 #interests {
-  border: 4px silver ridge;
+  border: 4px rgb(4, 53, 246) ridge;
   padding: 8px;
 }
 h2,
@@ -72,24 +72,7 @@ div {
   padding-bottom: 5px;
   padding-left: 0;
 }
-<div
-  class="myClass"
-  > <!--
-  div
-  content
-  goes
-  here
-  --
-  > </div
-  > <div
-  id="myId"
-  > <!--
-  div
-  content
-  goes
-  here
-  --
-  > </div
+
   > .myClass {
   background-color: blue;
 }
@@ -120,54 +103,4 @@ div {
 #portfolio a {
   text-decoration: none;
   color: #454545;
-}
-
-/* responsive web design */
-@media screen and (min-width: 120px) and (max-width: 1080px) {
-  main {
-    height: 100ch;
-    zoom: 1.5;
-    display: grid;
-  }
-
-  h1 {
-    font-size: 44px;
-  }
-
-  h2 {
-    font-size: 42px;
-  }
-
-  h3 {
-    font-size: 36px;
-  }
-
-  #all-contents {
-    height: 100ch;
-    margin: none;
-  }
-
-  a {
-    font-size: 42px;
-  }
-
-  .sidebar {
-    margin-right: 0px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .sidebar-img {
-    width: 100%;
-  }
-
-  p,
-  li {
-    font-size: 24px;
-  }
-
-  .content {
-    align-content: center;
-    justify-content: center;
-  }
 }
