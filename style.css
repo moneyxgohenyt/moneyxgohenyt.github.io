@@ -55,7 +55,7 @@ main {
 
 /* portfolio styles */
 #interests {
-  border: 4px rgb(4, 53, 246) ridge;
+  border: 4px rgb(0, 0, 0) ridge;
   padding: 8px;
 }
 h2,
@@ -65,7 +65,7 @@ h3 {
 
 /* portfolio styles */
 body {
-  background-color: blue;
+  background-color: rgb(249, 100, 100, 0.897);
 }
 div {
   padding-top: 20px;
@@ -75,7 +75,7 @@ div {
 }
 
 .myClass {
-  background-color: blue;
+  background-color: black (0, 0, 0, 0.897);
 }
 
 .content h1 {
@@ -95,7 +95,8 @@ div {
 }
 
 #portfolio li:hover {
-  background: #0364f5;
+  background: #000000;
+  border-radius: 10% 30% 50% 70%;
 }
 
 #portfolio a {

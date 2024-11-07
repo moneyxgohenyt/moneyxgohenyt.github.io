@@ -12,7 +12,7 @@ const projectileSpeed = 8; // the speed of projectiles
 
 // Base game variables
 const frameRate = 60;
-const playerScale = .7; //makes the player just a bit smaller. Doesn't affect the hitbox, just the image
+const playerScale = 10; //makes the player just a bit smaller. Doesn't affect the hitbox, just the image
 
 // Player variables
 const player = {
