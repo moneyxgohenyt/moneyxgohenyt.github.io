@@ -1,8 +1,8 @@
 // setup variables
 const walkAcceleration = 7; // how much is added to the speed each frame
-const gravity = 0.5; // how much is subtracted from speedY each frame
-const friction = 1.5; // how much the player is slowed each frame
-const maxSpeed = 8; // maximum horizontal speed, not vertical
+const gravity = 100; // how much is subtracted from speedY each frame
+const friction = 1; // how much the player is slowed each frame
+const maxSpeed = 10; // maximum horizontal speed, not vertical
 const playerJumpStrength = 100; // this is subtracted from the speedY each jump
 const projectileSpeed = 8; // the speed of projectiles
 
@@ -12,14 +12,14 @@ const projectileSpeed = 8; // the speed of projectiles
 
 // Base game variables
 const frameRate = 60;
-const playerScale = 10; //makes the player just a bit smaller. Doesn't affect the hitbox, just the image
+const playerScale = 1; //makes the player just a bit smaller. Doesn't affect the hitbox, just the image
 
 // Player variables
 const player = {
-  x: 50,
-  y: 100,
-  speedX: 100,
-  speedY: 10000,
+  x: 5,
+  y: 10,
+  speedX: 10,
+  speedY: 10,
   width: undefined,
   height: undefined,
   onGround: false,
