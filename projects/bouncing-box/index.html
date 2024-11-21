@@ -74,8 +74,9 @@
 			it should move the Box to a new location. If the box drifts off the screen
 			turn it around! 
 			*/
-			function update() {
-			moveBoxTo(200)
+			function moveBoxTo(newPositionX) {
+				box.css("left", newPositionX);
+			
 
 			};
 
