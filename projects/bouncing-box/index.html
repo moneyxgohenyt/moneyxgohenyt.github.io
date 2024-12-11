@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
     <title>Bouncing Box</title>
     <script src="jquery.min.js"></script>
     <style>
@@ -9,7 +8,8 @@
         width: 70px;
         height: 70px;
         background-color: teal;
-        font-size: 300%;
+        font-siz
+        e: 300%;
         text-align: center;
         user-select: none;
         display: block;
@@ -95,7 +95,7 @@
 
         function handleBoxClick() {
           positionX = 0;
-          speed = speed + 3;
+          speed = 3 * points + 10;
           points = points + 1;
           changeBoxText(points);
         }
